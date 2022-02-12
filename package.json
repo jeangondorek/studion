@@ -24,5 +24,11 @@
   "homepage": "https://github.com/jeangondorek/studion#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "devDependencies": {
+  "glob-parent": ">=5.1.2"
+  },
+  "dependencies": {
+  "glob-parent": ">=5.1.2"
+}
 }
