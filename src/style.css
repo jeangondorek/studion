@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -7,13 +7,24 @@
 :root{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    --color-copy: #333333;
     --color-primary: rgb(255, 197, 0);
     --default-padding: 1rem;
+    color: var(--color-copy);
 }
 
 body{
     margin: 0;
     padding-top: 7.75rem;;
+}
+
+header, main, footer{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 ul{
@@ -25,16 +36,20 @@ ul{
 .navbar{
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.navbar__container{
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 7.75rem;
     padding: 0 1rem;
-    background-color: rgba(0, 0, 0, 1);
-    color: #fff;
 }
 
 .navbar__links{
@@ -128,9 +143,72 @@ ul{
     transition: 0.5s all ease;
 }
 
-.btn:hover, .btn:active, .btn:focus{
+.btn:hover, .btn:active, .btn:focus, .btn_institutional{
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
 }
 
+#counter{
+    background-color: var(--color-primary);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.counter_cointainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    padding: 4.375rem 1rem;
+}
+
+.counter_cointainer h3{
+    font-size: 2.1875rem;
+}
+
+.counter_cointainer h3 small{
+    display: block;
+    font-size: 1.25rem;
+}
+
+.institutional{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem;
+}
+
+.institutional_image{
+    max-width: 550px;
+}
+
+.institutional_copy{
+    padding: 0 1.875rem;
+}
+
+.institutional_copy h6{
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.institutional_copy h4{
+    font-size: 1.5625rem;
+    margin-top: 1rem;
+}
+
+.institutional p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+
+.btn_institutional:hover{
+    color: var(--color-copy);
+    background: unset;
+}
