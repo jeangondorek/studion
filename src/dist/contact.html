@@ -20,56 +20,59 @@
                 <li><a href="events.html">Eventos</a></li>
                 <li><a href="gallery.html">Galeria</a></li>
                 <li><a href="testimonials.html">Depoimentos</a></li>
-                <li><a href="contact.html">Contatos</a></li>
+                <li><a class="active" href="contact.html">Contatos</a></li>
             </ul>
         </div>
     </nav>
+
     <header>
-        <div id="slider">
-            <div class="slide">
-                <img class="slide_background-image" src="./images/banner.jpg" alt="Studion Banner"/>
-                <div class="slide_copy">
-                    <h6><span class="copy-primary">Próximo evento</span><span> - Dia 25 de setembro as 19h</span></h6>
-                    <h2><span class="copy-primary">Creative</span> Minds</h2>
-                    <button class="btn btn--slide">Saiba Mais</button>
+        <div class="hero">
+            <img src="./images/contact.jpg" alt="" class="hero__background">
+            <div class="container hero__container">
+                <div class="hero__copy">
+                    <h2 class="copy-primary">.contact</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis sed blanditiis iste deleniti aspernatur ab ducimus culpa ea saepe ex numquam quibusdam commodi, eaque architecto. In deleniti corporis ipsa!</p>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="counter">
-            <ul class="container counter_cointainer">
-                <li>
-                    <h3>+ de 500<small> eventos realizados</small></h3>
-                </li>
-                <li>
-                    <h3>+ de 1.000.000<small>de ingressos vendidos</small></h3>
-                </li>
-                <li>
-                    <h3>+ de 300<small>empresas atendidas</small></h3>
-                </li>
-            </ul>
+        <section class="contact">
+            <section class="contact__info">
+                <h3>Liga pra gente</h3>
+                <span>
+                    <i class="fa-solid fa-phone"></i></i>
+                    +55 49 99999 - 9999
+                </span>
+                <span>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    +55 49 99999 - 9999
+                </span>
+                <h3>Venha conhcer a nossa casa</h3>
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Rua Alguém disse, 999 - Caracas Cidade/ES
+                </span>
+            </section>
+
+            <section class="contact__form">
+                <h3>Deixe sua mensagem</h3>
+                <form action="">
+                    <label for="name">Seu nome</label>
+                    <input type="text" id="name" />
+                    <label for="email">Seu email</label>
+                    <input type="email" id="email"/>
+                    <label for="mensagem">Sua mensagem</label>
+                    <input type="text" id="mensagem" />
+                    <button class="btn btn--contact" type="submit">Enviar</button>
+                </form>
+            </section>
+
         </section>
-        <section class="container institutional">
-            <img class="institutional_image" src="./images/institutional.jpg" alt="Studion Institutional"/>
-            <div class="institutional_copy">
-                <h6>Fazemos seu evento acontecer</h6>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae repellendus harum
-                    earum ipsa laboriosam omnis, dolorum facilis architecto modi sapiente eaque tenetur vel
-                    reprehenderit. Suscipit commodi adipisci nemo aliquam?</p>
-                <button class="btn btn_institutional">Saiba Mais</button>
-            </div>
-        </section>
-        <section class="quote">
-            <div class="container quote_container">
-                <div class="quote_copy">
-                    <h6>Você informa a temática e nós planejamos um evento com tecnologia e </h6>
-                    <h2><Span class="copy-primary">Muito + </Span> diversão</h2>
-                    <button class="btn btn-quote">Fazer Cotação</button>
-                </div>
-            </div>
+
+        <section class="maps">
+
         </section>
     </main>
     

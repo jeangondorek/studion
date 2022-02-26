@@ -1,0 +1,87 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-studion{
+    justify-self: start;
+}
+
+.footer_form{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9ch auto;
+    gap: 1.25rem;
+}
+
+.footer_form label{
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer_form fieldset{
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    border: unset;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer_form input{
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer_form input::placeholder{
+    color: #000;
+}
+
+.footer_form input:focus{
+    outline: unset;
+}
+
+.footer_form button{
+    border: unset;
+}
+
+.footer-social{
+    justify-self: end;
+}
+
+.footer-social a .fa-twitter,
+.footer-social a:visited .fa-twitter,
+.footer-social a:active .fa-twitter{
+    color: #000;
+}
+
+.footer-social a,
+.footer-social a:visited,
+.footer-social a:active{
+    color: #fff;
+}
+
+hr{
+    border-color: rgb(255, 255, 255, 0.3);
+    margin: 0;
+}
+
+.footer p{
+    font: .875rem;
+    font-weight: 300;
+    margin: 2.5rem 0;
+}
