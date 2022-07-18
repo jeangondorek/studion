@@ -4,7 +4,7 @@
   "description": "Home page for Studion. Study page.",
   "main": "src/index.html",
   "scripts": {
-    "start":"npx live-server src/",
+    "start": "npx live-server src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/jeangondorek/studion#readme",
   "dependencies": {
-  "glob-parent": ">=5.1.2"
-}
+    "glob-parent": ">=6.0.2"
+  }
 }
