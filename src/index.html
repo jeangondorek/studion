@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
     <link rel="stylesheet" href="style.css">
     <title>Studion</title>
 </head>
@@ -25,12 +27,28 @@
         </div>
     </nav>
     <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
                 <img class="slide_background-image" src="./images/banner.jpg" alt="Studion Banner"/>
                 <div class="slide_copy">
                     <h6><span class="copy-primary">Próximo evento</span><span> - Dia 25 de setembro as 19h</span></h6>
                     <h2><span class="copy-primary">Creative</span> Minds</h2>
+                    <button class="btn btn--slide">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slide_background-image" src="./images/banner2.jpg" alt="Studion Banner"/>
+                <div class="slide_copy">
+                    <h6><span class="copy-primary">Próximo evento</span><span> - Dia 25 de setembro as 19h</span></h6>
+                    <h2><span class="copy-primary">FEST</span> FORWARD</h2>
+                    <button class="btn btn--slide">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="slide_background-image" src="./images/banner3.jpg" alt="Studion Banner"/>
+                <div class="slide_copy">
+                    <h6><span class="copy-primary">Próximo evento</span><span> - Dia 25 de setembro as 19h</span></h6>
+                    <h2><span class="copy-primary">SHOW</span> EVENT</h2>
                     <button class="btn btn--slide">Saiba Mais</button>
                 </div>
             </div>
@@ -81,7 +99,7 @@
                 <label for="email">receba news e promoções</label>
                 <fieldset>
                     <input id="email" type="email" placeholder="email"/>
-                    <button type="submit">
+                    <button class="form-submit" type="submit">
                         <i class="fa-solid fa-paper-plane fa-2x"></i>
                     </button>
                 </fieldset>
@@ -110,5 +128,9 @@
         </div> 
     </footer>
 </body>
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
 </html>
