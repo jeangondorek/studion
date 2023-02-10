@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $(' .navbar__menu-btn').on('click', function(){
+        $('.navbar__links').class('.active'.toggle());
+    });
+
     const slickOptions ={
         dots: false,
         autoplay: true,
