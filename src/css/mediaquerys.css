@@ -1,0 +1,116 @@
+/* Tablet */
+@media screen and (min-width: 720px){
+    :root{
+        font-size: 2.22vw;
+    }
+    .slide_copy h2{
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    :root{
+        font-size: 16px;
+    }
+    .slide_copy{
+        left: 50vw;
+        top: 8.25rem;
+        text-align: unset;
+        padding: 0;
+    }
+    .slide_background-image{
+        opacity: unset;
+    }
+    .slider__next-arrow,
+    .slider__prev-arrow{
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 5px solid #fff;
+        border-right: unset;
+        border-bottom: unset;
+        opacity: 0.75;
+    }
+    .slider__prev-arrow{
+        z-index: 1;
+        left: 1rem;
+        transform: rotate(-45deg);
+    }
+    
+    .slider__next-arrow{
+        right: 1rem;
+        transform: rotate(135deg);
+    }
+    
+    .slider__prev-arrow:before,
+    .slider__next-arrow:before{
+        content: "";
+    }
+    .institutional{
+        grid-template-columns: auto auto;
+    }
+    .slide_copy span{
+        display: inline;
+    }
+    .slide_copy h2{
+        font-size: 6.25rem;
+        line-height: 6.25rem;
+    }
+    .institutional_image{
+        max-width: 550px;
+    }
+    .quote_container{
+        align-items: center;
+    }
+    .quote_copy{
+        padding: 5.625rem 4.375rem;
+    }
+    .quote{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .quote_copy h6{
+        font-size: .9375rem;
+    }
+    
+    .quote_copy h2{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .footer_container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: unset;
+        align-items: center;
+        padding: 4.25rem 0 3rem 0;
+    }
+    .footer .logo-studion{
+        justify-self: start;
+    }
+    .footer-social{
+        justify-self: end;
+    }
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .footer_form{
+        display: grid;
+        grid-template-columns: 9ch auto;
+    }
+    .navbar__menu-btn{
+        display: none;
+    }
+    .navbar__links{
+        display: flex;
+    }   
+    .navbar__links li{
+        font-size: .875rem;
+        margin-right: 3rem;
+    } 
+    .navbar__links.active{
+        display: none;
+    }
+}
