@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $(' .navbar__menu-btn').on('click', function(){
-        $('.navbar__links').class('.active'.toggle());
+        $('.navbar__links').toggleClass('active');
+        $(this).find('i').toggleClass('fa-bars');
+        $(this).find('i').toggleClass('fa-close');
     });
 
     const slickOptions ={
