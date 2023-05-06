@@ -1,0 +1,42 @@
+.events{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+}
+
+.events h3{
+    margin: 0;
+    margin-bottom: 1.875rem;
+    font-size: 1.5625rem;
+}
+
+.events__info h3:nth-of-type(2){
+    margin-top: 3.75rem;
+}
+
+.events__info{
+    padding: 4rem 0;
+}
+
+.events__info_container{
+    width: 540px;
+}
+
+.events__info_container{
+    float: right;
+    padding-right: 7.125rem;
+}
+
+.events__info i{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.events__info span{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: .625rem;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 1.6875rem;
+}

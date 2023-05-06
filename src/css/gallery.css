@@ -1,0 +1,46 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+}
+
+.gallery h3{
+    margin: 0;
+    font-size: 1.5625rem;
+}
+
+.gallery__info{
+    padding: 4rem 0;
+}
+
+.gallery__info_container{
+    width: 540px;
+}
+
+.gallery__info_container{
+    float: right;
+}
+
+.gallery__info i{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.gallery__info span{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: .625rem;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 1.6875rem;
+}
+
+.gallery__img{
+    width: 600px;
+}
+
+@media screen and (max-width: 768px){
+    .gallery{
+        grid-template-columns: 1fr;
+    }    
+}
