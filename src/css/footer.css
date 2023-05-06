@@ -5,31 +5,27 @@
 }
 
 .footer_container{
-    display: block;
-    grid-template-rows: auto;
-    grid-template-columns: unset;
-    gap: 3rem;
-    align-items:center;
-    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
 }
 
 .footer .logo-studion{
     justify-self: start;
-    margin: 0;
 }
 
 .footer_form{
-    display: block;
+    display: grid;
     place-items: center;
-    grid-template-columns: 0 auto;
+    grid-template-columns: 9ch auto;
     gap: 1.25rem;
 }
 
 .footer_form label{
-    font-size: 1rem;
+    font-size: .875rem;
     font-weight: 300;
     text-align: center;
-    line-height: 1rem;
 }
 
 .footer_form fieldset{
@@ -64,11 +60,7 @@
 }
 
 .footer-social{
-    justify-self: center;
-}
-
-.footer-social a{
-    padding: .5rem;
+    justify-self: end;
 }
 
 .footer-social a .fa-twitter,

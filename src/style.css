@@ -13,5 +13,8 @@
 
 @import './css/home.css';
 @import './css/contacts.css';
+@import './css/testimonials.css';
 
-@import './css/mediaquerys.css';
+@import './css/events.css';
+@import './css/gallery.css';
+@import './css/enterprise.css';

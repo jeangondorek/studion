@@ -18,25 +18,11 @@
 
 .navbar__links{
     justify-self: end;
-    display: none;
-}
-
-.navbar__links.active{
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top:0;
-    left:0;
-    z-index:10;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 2rem;
-    background: #000e;
 }
 
 .navbar__links li{
-    font-size: 1.5rem;
+    font-size: .875rem;
+    margin-right: 3rem;
     text-transform: uppercase;
 }
 
@@ -46,23 +32,14 @@
     color: #fff;
 }
 
-.navbar__links a.active{
+.navbar__links{
     color: var(--color-copy);
+}
+
+a.active{
+    color: var(--color-primary);
 }
 
 .navbar__links a:hover{
     color: var(--color-primary);
-}
-
-.navbar__menu-btn{
-    font-size: 3rem;
-    cursor: pointer;
-    z-index: 10;
-    color: #fff;
-    width: fit-content;
-    background: unset;
-    border: unset;
-    justify-self: end;
-    align-self: start;
-    margin-top: 1.5rem;
 }
