@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/jeangondorek/studion#readme",
   "dependencies": {
-    "glob-parent": ">=6.0.2"
+    "glob-parent": ">=7.0.0"
   }
 }
